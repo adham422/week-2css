@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&family=Fraunces:opsz,wght@9..144,800&family=Work+Sans:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+	--Dark-cyan: hsl(158, 36%, 37%);
+	--Cream: hsl(30, 38%, 92%);
+	--Very-dark-blue: hsl(212, 21%, 14%);
+	--Dark-grayish-blue: hsl(228, 12%, 48%);
+	--White: hsl(0, 0%, 100%);
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.first-task {
+    box-shadow: 0 5px 25px rgb(1 1 1 / 20%);
+    display: flex;
+    justify-content: center;
+    margin: 5em auto;
+    width: 40rem;
+    height: 28rem;
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.first-task .img img {
+    width: 20rem;
+    height: 28rem;    
+}
+.card {
+    padding: 1.5em;
+}
+.card h3 {
+    font-family: 'Courier New',monospace;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 1em 0;
+    color: #444;
+}
+.card h1 {
+    text-transform: capitalize;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 3em;
+    line-height: 0.9;
+    padding-bottom: 0.5em;
+}
+.card p {
+    font-family: "Gill Sans", sans-serif;
+    color: #444;
+    text-transform: capitalize;
+    line-height: 1.3em;
+    font-weight: 300;
+    font-size: revert;
+    width: 16em;
+}
+.first-task .salary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 10em;
+    padding: 1em 0;
+}
+.first-task .salary h2 {   
+    font-weight: 700;
+    color: #444;
+    font-family: 'Fraunces', serif;
+}
+.first-task .salary h6 { 
+    font-weight: 700;
+    font-size: 0.8em;  
+    color: #444;
+}
+.icon button {
+    text-transform: capitalize;
+    text-align: center;
+    width: 12em;
+    border: 10px solid gray;
+    border-radius: 5px;
+    background-color:gray;
+    color: #fff;
+    font-size: 1.2em;
+}
+/***************************Assignment 2*****************************/
+.content-2 .one {
+    padding: 0.5em;
+    text-align: center;
+    font-size: 5em;
+    text-transform: uppercase;
+    color: #e74246;
+    font-weight: 700;
+    text-shadow: 3px 3px 0 #e9c83d,6px 6px 0 #83b8c0;
+}
+/******************************Assignment 3***************************/
+.content-3 {
+    margin:3rem 37%;
+}
+.content-3 .one,
+.content-3 .two,
+.content-3 .three {
+    width: 400px;
+    background-color: #eee;
+    padding: 1em;
+    min-height: 2em;
+}
+.content-3 .two{
+    margin: 1em 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: clip;
+    border-right: 122px solid #eee;
+}
+.content-3 .three{
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
